@@ -1,0 +1,220 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COMPETITOR_H	competitor.h	3;"	d
+DATACONF_H	dataconf.h	3;"	d
+EXIT_ERROR	common.h	/^typedef enum { EXIT_OK, EXIT_ERROR, EXIT_FAIL } ret_state;$/;"	e	enum:__anon1
+EXIT_FAIL	common.h	/^typedef enum { EXIT_OK, EXIT_ERROR, EXIT_FAIL } ret_state;$/;"	e	enum:__anon1
+EXIT_OK	common.h	/^typedef enum { EXIT_OK, EXIT_ERROR, EXIT_FAIL } ret_state;$/;"	e	enum:__anon1
+IGN_EOLN	dataconf.h	/^    IGN_EOLN,    \/* Consider performing end-of-line convert *\/$/;"	e	enum:jmode_t
+IGN_NOT	dataconf.h	/^    IGN_NOT,$/;"	e	enum:jmode_t
+IGN_WHITE	dataconf.h	/^    IGN_WHITE,$/;"	e	enum:jmode_t
+INSERT_LINKED_LIST	common.h	33;"	d
+LINEARITY_COMMON_H	common.h	3;"	d
+LINEARITY_LIMITS_H	limits.h	3;"	d
+MAKE_LINKED_LIST	common.h	26;"	d
+MAX_MIN_FUNC	common.h	13;"	d
+PROB_NAME_MAX	limits.h	6;"	d
+RUNTEST_H	runtest.h	3;"	d
+SPEC_JUDGE	dataconf.h	/^    SPEC_JUDGE   \/* FIXME not implemented. *\/$/;"	e	enum:jmode_t
+STAT_AC	runtest.h	/^typedef enum{STAT_UNKNOWN, STAT_TLE, STAT_MLE, STAT_AC, STAT_WA, STAT_RTE} user_stat_t;$/;"	e	enum:__anon2
+STAT_MLE	runtest.h	/^typedef enum{STAT_UNKNOWN, STAT_TLE, STAT_MLE, STAT_AC, STAT_WA, STAT_RTE} user_stat_t;$/;"	e	enum:__anon2
+STAT_RTE	runtest.h	/^typedef enum{STAT_UNKNOWN, STAT_TLE, STAT_MLE, STAT_AC, STAT_WA, STAT_RTE} user_stat_t;$/;"	e	enum:__anon2
+STAT_TLE	runtest.h	/^typedef enum{STAT_UNKNOWN, STAT_TLE, STAT_MLE, STAT_AC, STAT_WA, STAT_RTE} user_stat_t;$/;"	e	enum:__anon2
+STAT_UNKNOWN	runtest.h	/^typedef enum{STAT_UNKNOWN, STAT_TLE, STAT_MLE, STAT_AC, STAT_WA, STAT_RTE} user_stat_t;$/;"	e	enum:__anon2
+STAT_WA	runtest.h	/^typedef enum{STAT_UNKNOWN, STAT_TLE, STAT_MLE, STAT_AC, STAT_WA, STAT_RTE} user_stat_t;$/;"	e	enum:__anon2
+__relative_data_valid	main.c	/^static int __relative_data_valid(struct data_link_t *dp)$/;"	f	file:	signature:(struct data_link_t *dp)
+_run	runtest.c	/^static void *_run(void *);$/;"	p	file:	signature:(void *)
+_run	runtest.c	/^static void *_run(void *arg)$/;"	f	file:	signature:(void *arg)
+a	runtest.c	/^    int a, b;$/;"	l
+absolute_path	common.c	/^const char *absolute_path(const char *rel, const char *base)$/;"	f	signature:(const char *rel, const char *base)
+absolute_path	common.h	/^const char *absolute_path(const char *, const char *);$/;"	p	signature:(const char *, const char *)
+acc	runtest.c	/^            long long acc;$/;"	l
+actual	runtest.c	/^            struct timespec nsintv, actual;$/;"	l
+b	runtest.c	/^    int a, b;$/;"	l
+base_dir	competitor.c	/^extern const char *base_dir;$/;"	x
+base_dir	dataconf.c	/^extern const char *base_dir;$/;"	x
+base_dir	main.c	/^const char *base_dir;$/;"	v
+base_dir	runtest.c	/^extern const char *base_dir;$/;"	x
+c	main.c	/^    int c, help=0, version=0;$/;"	l
+check_io_validity	main.c	/^    test_error_noexit(check_io_validity()!=EXIT_OK, "Warning: test data not fully valid.");$/;"	p	file:
+check_io_validity	main.c	/^int check_io_validity(void)$/;"	f	signature:(void)
+child_pid	common.c	/^extern pid_t child_pid;$/;"	x
+child_pid	runtest.c	/^pid_t child_pid;$/;"	v
+clean_up	runtest.c	/^static ret_state clean_up(void)$/;"	f	file:	signature:(void)
+clean_up	runtest.c	/^static ret_state clean_up(void);$/;"	p	file:	signature:(void)
+comp	competitor.h	/^MAKE_LINKED_LIST (comp);$/;"	v
+comp	main.c	/^struct comp_link_t *comp;$/;"	v	typeref:struct:comp_link_t
+comp	runtest.c	/^extern struct comp_link_t *comp;$/;"	x
+comp_t	competitor.h	/^struct comp_t$/;"	s
+comp_t::name	competitor.h	/^    fname_t name;$/;"	m	struct:comp_t	access:public
+comp_t::srcfile	competitor.h	/^    struct srcfile_link_t *srcfile;$/;"	m	struct:comp_t	typeref:struct:comp_t::srcfile_link_t	access:public
+compdir	competitor.c	/^    DIR *compdir;$/;"	l
+compdirpath	competitor.c	/^    char *compdirpath=(char*)malloc(sizeof(char)*(strlen(srcent->d_name)+4+2));$/;"	l
+compent	competitor.c	/^    struct dirent *compent;$/;"	l
+compile	runtest.c	/^static ret_state compile(struct srcfile_link_t *);$/;"	p	file:	signature:(struct srcfile_link_t *)
+compile	runtest.c	/^static ret_state compile(struct srcfile_link_t *src)$/;"	f	file:	signature:(struct srcfile_link_t *src)
+cursize	main.c	/^    int cursize=2;$/;"	l
+data	dataconf.h	/^MAKE_LINKED_LIST (data);$/;"	v
+data_t	dataconf.h	/^struct data_t$/;"	s
+data_t::limits	dataconf.h	/^    struct res_limit_t limits;$/;"	m	struct:data_t	typeref:struct:data_t::res_limit_t	access:public
+data_t::path	dataconf.h	/^    fpath_t path;$/;"	m	struct:data_t	access:public
+data_t::score	dataconf.h	/^    double score;$/;"	m	struct:data_t	access:public
+dataconf_path	main.c	/^char *spec_comp, *spec_prob, *dataconf_path;$/;"	v
+diff	runtest.c	/^static user_stat_t diff(FILE *usr, FILE *std)$/;"	f	file:	signature:(FILE *usr, FILE *std)
+diff_eoln	runtest.c	/^static user_stat_t diff_eoln(FILE *usr, FILE *std)$/;"	f	file:	signature:(FILE *usr, FILE *std)
+diff_white	runtest.c	/^static user_stat_t diff_white(FILE *usr, FILE *std)$/;"	f	file:	signature:(FILE *usr, FILE *std)
+dp	main.c	/^    struct data_link_t *dp;$/;"	l
+dtmp	runtest.c	/^    DIR *dtmp=opendir(tmpdir);$/;"	l
+dump_comp	competitor.c	/^void dump_comp(struct comp_link_t *comp)$/;"	f	signature:(struct comp_link_t *comp)
+dump_comp	competitor.h	/^void dump_comp(struct comp_link_t *);$/;"	p	signature:(struct comp_link_t *)
+entry	runtest.c	/^    struct dirent *entry;$/;"	l
+exit_status	dataconf.c	/^    int exit_status=EXIT_OK;$/;"	l
+failcnt	main.c	/^    int failcnt=0;$/;"	l
+fdc	dataconf.c	/^    FILE *fdc = fopen(dc, "r");$/;"	l
+fgets_strip	dataconf.c	/^static char *fgets_strip(char *s, int size, FILE *stream)$/;"	f	file:	signature:(char *s, int size, FILE *stream)
+file_readable	main.c	/^static int file_readable(const fpath_t x)$/;"	f	file:	signature:(const fpath_t x)
+finish	common.c	/^void finish(void)$/;"	f	signature:(void)
+finish	common.h	/^void finish(void);$/;"	p	signature:(void)
+fname_t	common.h	/^typedef char fname_t[NAME_MAX+1];$/;"	t
+fpath_t	common.h	/^typedef char fpath_t[PATH_MAX+1];$/;"	t
+get_base_dir	main.c	/^const char *get_base_dir(void)$/;"	f	signature:(void)
+get_comp_info	competitor.c	/^static struct comp_link_t *get_comp_info(struct dirent *srcent, struct comp_link_t *res)$/;"	f	file:	signature:(struct dirent *srcent, struct comp_link_t *res)
+get_comp_list	competitor.c	/^int get_comp_list(struct comp_link_t *res)$/;"	f	signature:(struct comp_link_t *res)
+get_comp_list	competitor.h	/^int get_comp_list(struct comp_link_t *);$/;"	p	signature:(struct comp_link_t *)
+get_comp_list	main.c	/^    test_error(get_comp_list(comp)!=EXIT_OK, "Error getting competitor list.");$/;"	p	file:
+get_file_uid	main.c	/^uid_t get_file_uid(const fpath_t path)$/;"	f	signature:(const fpath_t path)
+geteuid	main.c	/^    test_error(geteuid()!=nobody_uid, "This program needs set-user-id bit turned on.");$/;"	p	file:
+handle	main.c	/^void handle(int sig)$/;"	f	signature:(int sig)
+help	main.c	/^    int c, help=0, version=0;$/;"	l
+help_str	main.c	/^const char *help_str = "help";$/;"	v
+i	common.c	/^    int i;$/;"	l
+i	dataconf.c	/^    const char *i;$/;"	l
+inew	dataconf.c	/^        static struct data_t inew, onew;$/;"	l	file:
+init_comp	main.c	/^    test_error(init_comp()!=EXIT_OK, "Error allocating space for competitor information.");$/;"	p	file:
+init_comp	main.c	/^int init_comp(void)$/;"	f	signature:(void)
+init_data	dataconf.c	/^static int init_data(struct prob_t *);$/;"	p	file:	signature:(struct prob_t *)
+init_data	dataconf.c	/^static int init_data(struct prob_t *new)$/;"	f	file:	signature:(struct prob_t *new)
+init_prob	main.c	/^    test_error(init_prob()!=EXIT_OK, "Error allocating space for problem information.");$/;"	p	file:
+init_prob	main.c	/^int init_prob(void)$/;"	f	signature:(void)
+inp	dataconf.h	/^    fname_t inp, outp;$/;"	m	struct:prob_t	access:public
+inp_data	dataconf.h	/^    struct data_link_t *inp_data, *outp_data;$/;"	m	struct:prob_t	typeref:struct:prob_t::data_link_t	access:public
+itail	dataconf.c	/^    struct data_link_t *itail = new->inp_data,$/;"	l
+jmode	dataconf.h	/^    enum jmode_t jmode;$/;"	m	struct:prob_t	typeref:enum:prob_t::jmode_t	access:public
+jmode_t	dataconf.h	/^enum jmode_t$/;"	g
+jump_space	dataconf.c	/^static int jump_space(FILE *);$/;"	p	file:	signature:(FILE *)
+jump_space	dataconf.c	/^static int jump_space(FILE *fin)$/;"	f	file:	signature:(FILE *fin)
+len	dataconf.c	/^    int len;$/;"	l
+limits	dataconf.h	/^    struct res_limit_t limits;$/;"	m	struct:data_t	typeref:struct:data_t::res_limit_t	access:public
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+malloc_with_type	common.h	23;"	d
+memory	dataconf.h	/^    double time, memory;$/;"	m	struct:res_limit_t	access:public
+name	competitor.h	/^    fname_t name;$/;"	m	struct:comp_t	access:public
+name	dataconf.h	/^    prob_name_t name;$/;"	m	struct:prob_t	access:public
+new	dataconf.c	/^        static struct prob_t new;$/;"	l	file:
+nobody_uid	main.c	/^uid_t nobody_uid;$/;"	v
+nobody_uid	runtest.c	/^extern uid_t nobody_uid;$/;"	x
+nsintv	runtest.c	/^            struct timespec nsintv, actual;$/;"	l
+onew	dataconf.c	/^        static struct data_t inew, onew;$/;"	l	file:
+otail	dataconf.c	/^                       *otail = new->outp_data;$/;"	l
+outp	dataconf.h	/^    fname_t inp, outp;$/;"	m	struct:prob_t	access:public
+outp_data	dataconf.h	/^    struct data_link_t *inp_data, *outp_data;$/;"	m	struct:prob_t	typeref:struct:prob_t::	access:public
+p	competitor.c	/^        struct srcfile_link_t *p;$/;"	l
+parse_data	dataconf.c	/^static int parse_data(FILE *, struct prob_t *);$/;"	p	file:	signature:(FILE *, struct prob_t *)
+parse_data	dataconf.c	/^static int parse_data(FILE *fdc, struct prob_t *new)$/;"	f	file:	signature:(FILE *fdc, struct prob_t *new)
+parse_problem	dataconf.c	/^int parse_problem(const fpath_t dc, struct prob_link_t *res)$/;"	f	signature:(const fpath_t dc, struct prob_link_t *res)
+parse_problem	dataconf.c	/^int parse_problem(const fpath_t, struct prob_link_t *);$/;"	p	file:	signature:(const fpath_t, struct prob_link_t *)
+parse_problem	dataconf.h	/^int parse_problem(const fpath_t dc, struct prob_link_t *res);$/;"	p	signature:(const fpath_t dc, struct prob_link_t *res)
+parse_problem	main.c	/^    test_error(parse_problem(dataconf_path, prob)!=EXIT_OK, "Error reading dataconf.");$/;"	p	file:
+path	competitor.h	/^    fpath_t path;$/;"	m	struct:srcfile_t	access:public
+path	dataconf.h	/^    fpath_t path;$/;"	m	struct:data_t	access:public
+pin	runtest.c	/^    struct data_link_t *pin, *pout;$/;"	l
+pout	runtest.c	/^    struct data_link_t *pin, *pout;$/;"	l
+pp	main.c	/^    struct prob_link_t *pp;$/;"	l
+prepare_temp	runtest.c	/^static ret_state prepare_temp(void)$/;"	f	file:	signature:(void)
+prepare_temp	runtest.c	/^static ret_state prepare_temp(void);$/;"	p	file:	signature:(void)
+prob	competitor.c	/^extern struct prob_link_t *prob;$/;"	x
+prob	competitor.h	/^    struct prob_link_t *prob;$/;"	m	struct:srcfile_t	typeref:struct:srcfile_t::prob_link_t	access:public
+prob	dataconf.h	/^MAKE_LINKED_LIST (prob);$/;"	v
+prob	main.c	/^struct prob_link_t *prob;$/;"	v	typeref:struct:prob_link_t
+prob	runtest.c	/^extern struct prob_link_t *prob;$/;"	x
+prob_name_t	common.h	/^typedef char prob_name_t[PROB_NAME_MAX+1];$/;"	t
+prob_present	main.c	/^struct prob_link_t *prob_present(const prob_name_t name)$/;"	f	signature:(const prob_name_t name)
+prob_t	dataconf.h	/^struct prob_t$/;"	s
+prob_t::inp	dataconf.h	/^    fname_t inp, outp;$/;"	m	struct:prob_t	access:public
+prob_t::inp_data	dataconf.h	/^    struct data_link_t *inp_data, *outp_data;$/;"	m	struct:prob_t	typeref:struct:prob_t::data_link_t	access:public
+prob_t::jmode	dataconf.h	/^    enum jmode_t jmode;$/;"	m	struct:prob_t	typeref:enum:prob_t::jmode_t	access:public
+prob_t::name	dataconf.h	/^    prob_name_t name;$/;"	m	struct:prob_t	access:public
+prob_t::outp	dataconf.h	/^    fname_t inp, outp;$/;"	m	struct:prob_t	access:public
+prob_t::outp_data	dataconf.h	/^    struct data_link_t *inp_data, *outp_data;$/;"	m	struct:prob_t	typeref:struct:prob_t::	access:public
+q	competitor.c	/^    struct comp_link_t *q;$/;"	l
+q	runtest.c	/^    struct comp_link_t *q;$/;"	l
+q	runtest.c	/^    struct srcfile_link_t *q;$/;"	l
+read_literal	dataconf.c	/^static int read_literal(FILE *, const char *);$/;"	p	file:	signature:(FILE *, const char *)
+read_literal	dataconf.c	/^static int read_literal(FILE *fin, const char *x)$/;"	f	file:	signature:(FILE *fin, const char *x)
+read_to_next	dataconf.c	/^static int read_to_next(FILE *, int);$/;"	p	file:	signature:(FILE *, int)
+read_to_next	dataconf.c	/^static int read_to_next(FILE *fin, int x)$/;"	f	file:	signature:(FILE *fin, int x)
+res	common.c	/^    static fpath_t res;$/;"	l	file:
+res	dataconf.c	/^    char *res;$/;"	l
+res	dataconf.c	/^    int res=jump_space(fin);$/;"	l
+res	main.c	/^    char *res=(char*)malloc(sizeof(char)*cursize);$/;"	l
+res_limit_t	dataconf.h	/^struct res_limit_t$/;"	s
+res_limit_t::memory	dataconf.h	/^    double time, memory;$/;"	m	struct:res_limit_t	access:public
+res_limit_t::time	dataconf.h	/^    double time, memory;$/;"	m	struct:res_limit_t	access:public
+ret_state	common.h	/^typedef enum { EXIT_OK, EXIT_ERROR, EXIT_FAIL } ret_state;$/;"	t	typeref:enum:__anon1
+run	runtest.c	/^static ret_state run(struct srcfile_link_t *);$/;"	p	file:	signature:(struct srcfile_link_t *)
+run	runtest.c	/^static ret_state run(struct srcfile_link_t *src)$/;"	f	file:	signature:(struct srcfile_link_t *src)
+run_competitor	runtest.c	/^static ret_state run_competitor(struct comp_link_t *);$/;"	p	file:	signature:(struct comp_link_t *)
+run_competitor	runtest.c	/^static ret_state run_competitor(struct comp_link_t *entry)$/;"	f	file:	signature:(struct comp_link_t *entry)
+runner_id	runtest.c	/^            pthread_t runner_id;$/;"	l
+runtest	runtest.c	/^ret_state runtest(void)$/;"	f	signature:(void)
+runtest	runtest.c	/^ret_state runtest(void);$/;"	p	file:	signature:(void)
+runtest	runtest.h	/^ret_state runtest(void);$/;"	p	signature:(void)
+score	dataconf.h	/^    double score;$/;"	m	struct:data_t	access:public
+sp_link	main.c	/^    struct prob_link_t *sp_link;$/;"	l
+spec_comp	main.c	/^char *spec_comp, *spec_prob, *dataconf_path;$/;"	v
+spec_prob	main.c	/^char *spec_comp, *spec_prob, *dataconf_path;$/;"	v
+src_match	competitor.c	/^static int src_match(const char *file, const char *prob)$/;"	f	file:	signature:(const char *file, const char *prob)
+srcdir	competitor.c	/^    DIR *srcdir=opendir("src\/");$/;"	l
+srcent	competitor.c	/^    struct dirent *srcent;$/;"	l
+srcfile	competitor.c	/^    struct srcfile_link_t *srcfile;$/;"	l
+srcfile	competitor.h	/^    struct srcfile_link_t *srcfile;$/;"	m	struct:comp_t	typeref:struct:comp_t::srcfile_link_t	access:public
+srcfile	competitor.h	/^MAKE_LINKED_LIST (srcfile);$/;"	v
+srcfile_t	competitor.h	/^struct srcfile_t$/;"	s
+srcfile_t::path	competitor.h	/^    fpath_t path;$/;"	m	struct:srcfile_t	access:public
+srcfile_t::prob	competitor.h	/^    struct prob_link_t *prob;$/;"	m	struct:srcfile_t	typeref:struct:srcfile_t::prob_link_t	access:public
+statloc	runtest.c	/^            int statloc;$/;"	l
+statloc	runtest.c	/^        int statloc;$/;"	l
+std	runtest.c	/^    const char *usr, *std;$/;"	l
+str_allocerr	dataconf.c	/^        test_error(init_data(&new)!=EXIT_OK, str_allocerr);$/;"	l
+str_allocerr	dataconf.c	/^     *str_allocerr="Error allocating for storage",$/;"	v	file:
+str_fmterr	dataconf.c	/^char *str_fmterr="Data configuration is not correctly formatted",$/;"	v	file:
+str_parseerr	dataconf.c	/^        test_error(parse_data(fdc, &new)!=EXIT_OK, str_parseerr);$/;"	l
+str_parseerr	dataconf.c	/^     *str_parseerr="Error parsing data configuration";$/;"	v	file:
+strconn	common.c	/^const char *strconn(const char *a, const char *b)$/;"	f	signature:(const char *a, const char *b)
+strconn	common.h	/^const char *strconn(const char *, const char *);$/;"	p	signature:(const char *, const char *)
+string_tolower	common.c	/^char *string_tolower(char *s)$/;"	f	signature:(char *s)
+string_tolower	common.h	/^char *string_tolower(char *);$/;"	p	signature:(char *)
+string_toupper	common.c	/^char *string_toupper(char *s)$/;"	f	signature:(char *s)
+string_toupper	common.h	/^char *string_toupper(char *);$/;"	p	signature:(char *)
+t	dataconf.c	/^    int t;$/;"	l
+test_error	common.h	44;"	d
+test_error_noexit	common.c	/^int test_error_noexit(int jud, const char *fmt, ...)$/;"	f	signature:(int jud, const char *fmt, ...)
+test_error_noexit	common.h	/^int test_error_noexit(int, const char *, ...);$/;"	p	signature:(int, const char *, ...)
+test_next	dataconf.c	/^static int test_next(FILE *);$/;"	p	file:	signature:(FILE *)
+test_next	dataconf.c	/^static int test_next(FILE *fin)$/;"	f	file:	signature:(FILE *fin)
+time	dataconf.h	/^    double time, memory;$/;"	m	struct:res_limit_t	access:public
+tmp	competitor.c	/^        struct prob_link_t *tmp;$/;"	l
+tmp	main.c	/^    FILE *tmp=fopen(x, "r");$/;"	l
+tmpdir	runtest.c	/^fpath_t tmpdir;$/;"	v
+user_stat_t	runtest.h	/^typedef enum{STAT_UNKNOWN, STAT_TLE, STAT_MLE, STAT_AC, STAT_WA, STAT_RTE} user_stat_t;$/;"	t	typeref:enum:__anon2
+usr	runtest.c	/^    const char *usr, *std;$/;"	l
+va	common.c	/^    va_list va;$/;"	l
+verify	runtest.c	/^static user_stat_t verify(int, struct prob_link_t *, struct data_link_t *, struct data_link_t *);$/;"	p	file:	signature:(int, struct prob_link_t *, struct data_link_t *, struct data_link_t *)
+verify	runtest.c	/^verify($/;"	f	file:	signature:( int statloc, struct prob_link_t *cprob, struct data_link_t *pin, struct data_link_t *pout )
+version	main.c	/^    int c, help=0, version=0;$/;"	l
+version_str	main.c	/^const char *version_str = "version";$/;"	v
+x	main.c	/^    static struct stat x;$/;"	l	file:
