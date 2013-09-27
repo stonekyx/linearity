@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <sys/stat.h>
+#include <sys/mailingrebasemaster.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <limits.h>
